@@ -1,0 +1,38 @@
+
+# ========== result ==========
+result/.ipynb_checkpoints/**
+result/checkpoint_500/**
+result/checkpoint_1000/**
+result/checkpoint_last/**
+result/logs/**
+
+# ========== weights-hf ==========
+weights-hf/.ipynb_checkpoints/**
+weights-hf/scheduler/**
+weights-hf/text_encoder/**
+weights-hf/tokenizer/**
+weights-hf/unet/**
+weights-hf/vae/**
+
+# ========== 保留各目录中的 .gitkeep ==========
+!result/.ipynb_checkpoints/.gitkeep
+!result/checkpoint_500/.gitkeep
+!result/checkpoint_1000/.gitkeep
+!result/checkpoint_last/.gitkeep
+!result/logs/.gitkeep
+
+!weights-hf/.ipynb_checkpoints/.gitkeep
+!weights-hf/scheduler/.gitkeep
+!weights-hf/text_encoder/.gitkeep
+!weights-hf/tokenizer/.gitkeep
+!weights-hf/unet/.gitkeep
+!weights-hf/vae/.gitkeep
+
+# ========== Python 常见缓存 ==========
+__pycache__/
+*.pyc
+
+# ========== Python 环境及敏感配置 ==========
+.venv/
+venv/
+.env
